@@ -1,11 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Mensagem para Any</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0b7ebb06-0ab5-459f-9d0d-6f2328f513e7/dfe7rgm-6bd68550-00fc-4ff4-aa12-3206ed15e274.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBiN2ViYjA2LTBhYjUtNDU5Zi05ZDBkLTZmMjMyOGY1MTNlN1wvZGZlN3JnbS02YmQ2ODU1MC0wMGZjLTRmZjQtYWExMi0zMjA2ZWQxNWUyNzQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.I1Wv4ySxoq9b-3jcp--ikkDao3vNeHqHUDSMdT-8RNc")
+          no-repeat center center fixed;
+        background-size: cover;
+        font-family: "UnifrakturCook", cursive;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        text-align: center;
+      }
+
+      .container {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 0 30px #9c27b0;
+        max-width: 90%;
+      }
+
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+        color: #ff66cc;
+        text-shadow: 2px 2px #000;
+      }
+
+      .photo-container {
+        margin: 20px 0;
+      }
+
+      .photo-container img {
+        width: 250px;
+        height: auto;
+        border-radius: 15px;
+        box-shadow: 0 0 20px #ec407a;
+      }
+
+      .whatsapp-button {
+        padding: 20px 40px;
+        font-size: 1.5rem;
+        color: #fff;
+        background: linear-gradient(45deg, #4a148c, #880e4f);
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+        text-decoration: none;
+        box-shadow: 0 0 15px #ba68c8;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        font-family: "UnifrakturCook", cursive;
+        display: inline-block;
+      }
+
+      .whatsapp-button:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 25px #ec407a;
+      }
+
+      .glow {
+        animation: pulse 2s infinite;
+      }
+
+      @keyframes pulse {
+        0% {
+          box-shadow: 0 0 15px #ba68c8;
+        }
+        50% {
+          box-shadow: 0 0 30px #ec407a;
+        }
+        100% {
+          box-shadow: 0 0 15px #ba68c8;
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        h1 {
+          font-size: 2.2rem;
+        }
+
+        .whatsapp-button {
+          font-size: 1.2rem;
+          padding: 15px 25px;
+        }
+
+        .photo-container img {
+          width: 180px;
+        }
+      }
+    </style>
   </head>
   <body>
-    teste do git no pc pra ver se a logado
+    <div class="container">
+      <h1>Mande uma mensagem para Any</h1>
+      <div class="photo-container">
+        <img
+          src="ChatGPT Image 6 de abr. de 2025, 20_26_00.png"
+          alt="Foto de Any em estilo cyberpunk anime"
+        />
+      </div>
+      <a
+        class="whatsapp-button glow"
+        href="https://wa.me/5541987081412"
+        target="_blank"
+      >
+        💬 Falar com Any no WhatsApp
+      </a>
+    </div>
   </body>
 </html>
